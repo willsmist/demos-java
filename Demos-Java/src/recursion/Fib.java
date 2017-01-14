@@ -9,6 +9,11 @@ public class Fib {
 		System.out.println(fib(1000));
 	}
 	
+	/**
+	 * 计算阶乘
+	 * @param n
+	 * @return
+	 */
 	public static List<Long> fib(int n){
 		List<Long> fibs = new ArrayList<Long>();
 		Long a = 0L;
